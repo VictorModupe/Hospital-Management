@@ -10,6 +10,7 @@
         <table class="table">
             <thead>
                 <tr>
+                    <th>Patient ID</th>
                     <th>Patient Name</th>
                     <th>Phone Number</th>
                     <th>Sex</th>
@@ -22,6 +23,7 @@
             {% for appointment in appointments%}
             <tbody>
                 <tr>
+                    <td>{{appointment.patient.ID}} {{appointment.patient.ID}} </td>
                     <td>{{appointment.patient.firstname}} {{appointment.patient.lastname}} </td>
                     <td>{{appointment.patient.phonenumber}}</td>
                     <td>{{appointment.patient.gender}}</td>

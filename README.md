@@ -17,11 +17,12 @@ pip install Flask
 **Initialize and activate a virtualenv using:**
 ```
 python -m virtualenv env
-source env/bin/activate
+Linux: source env/bin/activate
+Windows: source env/Scripts/activate
 ```
 >**Note** - In Windows, the `env` does not have a `bin` directory. Therefore, whoever that wants to activate the venv or virtual env should use the analogous command shown below:
 ```
-source env/Scripts/activate
+
 ```
 
 4. **Install the dependencies:**
